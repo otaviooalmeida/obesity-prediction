@@ -4,7 +4,7 @@ Este projeto utiliza algoritmos de Machine Learning para prever o nível de obes
 
 ## 📊 Dataset
 
-O dataset utilizado é o [Obesity Level dataset](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams), que inclui variáveis como:
+O dataset utilizado é o [Obesity Level dataset](https://www.kaggle.com/datasets/adeniranstephen/obesity-prediction-dataset), que inclui variáveis como:
 
 - Idade, altura e peso
 - Frequência de consumo de alimentos (FAVC, FCVC, NCP, CAEC)
