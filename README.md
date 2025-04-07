@@ -31,7 +31,7 @@ O dataset utilizado é o [Obesity Level dataset](https://www.kaggle.com/datasets
 - KNN
 - SVC
 - Logistic Regression
-- Random Forest (com GridSearch para tuning)
+- Random Forest (com GridSearch para tuning, acurácia de 0.9598)
 - XGBoost
 - Redes Neurais (ANN com Keras)
 
@@ -53,3 +53,22 @@ print(best_forest.predict(scaler.transform([
     ]
 ])))
 # Output: [0] -> Insufficient_Weight
+````
+
+
+## 🧬 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/otaviooalmeida/obesity-prediction.git
+   cd obesity-prediction
+   ```
+
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Execute o notebook (caso ainda não tenha, execute: pip install notebook):
+   ```bash
+   jupyter notebook
